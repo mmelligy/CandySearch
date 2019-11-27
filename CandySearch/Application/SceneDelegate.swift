@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  CandySearch
 //
-//  Created by Mahmoud El-Melligy on 11/27/19.
+//  Created by Mahmoud El-Melligy on 11/25/19.
 //  Copyright © 2019 Mahmoud El-Melligy. All rights reserved.
 //
 
