@@ -7,13 +7,23 @@
 //
 
 import Foundation
+import RealmSwift
 
-class Candy {
-    var name: String!
-    var category: String!
+
+class Candy: Object {
+   @objc dynamic var name = ""
+   @objc dynamic var category = ""
     
-    init(name: String, category: String) {
+    override static func primaryKey() -> String? {
+        return "name"
+    }
+    
+    init(name: String , category: String ) {
         self.name = name
         self.category = category
+    }
+    
+    override required init() {
+       
     }
 }
